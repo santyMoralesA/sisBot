@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="es">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -7,14 +8,27 @@
     <link rel="stylesheet" href="/css/style.css">
     <title>SisBot</title>
 </head>
-<body> 
-    <df-messenger
-  intent="WELCOME"
-  chat-title="SisBot"
-  agent-id="c47dbbc2-bc51-4a85-97b4-367520971aa7"
-  language-code="es"
-></df-messenger>
-    <script src="index.js"></script>
+
+<body>
+    <main>
+    <h1>Mi pagina con Chatbot</h1>
+    </main>
+    
+    <df-messenger 
+    intent="WELCOME" 
+    chat-title="SisBot" 
+    agent-id="c47dbbc2-bc51-4a85-97b4-367520971aa7"
+    chat-icon="logoTipoTensolite.png" 
+    language-code="es">
+    </df-messenger>
+
+
+
+
+
+
     <script src="https://www.gstatic.com/dialogflow-console/fast/messenger/bootstrap.js?v=1"></script>
+    <script src="/index.js"></script>
 </body>
+
 </html>
