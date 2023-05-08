@@ -6,9 +6,11 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "author": "",
+  "author": "Santiago Morales",
   "license": "ISC",
   "dependencies": {
     "express": "^4.18.2"
   }
 }
+ 
+
