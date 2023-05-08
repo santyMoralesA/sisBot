@@ -5,9 +5,5 @@ app.listen('3000', function() {
    console.log("Servidor Web iniciado escuchando en puerto 3000. http://localhost:3000/");
 })
 
-const dfMessenger = document.querySelector('df-messenger');
-dfMessenger.addEventListener('event-type', function (event) {
-  // Handle event
-  
-});
+
 
